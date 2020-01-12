@@ -1,0 +1,293 @@
+*{box-sizing: border-box;}
+
+.vert{
+
+  background-color: green;
+  height: 102px;
+  width: 302px; 
+  border: black 1px solid;
+
+}
+
+
+.bleu{
+  
+  background-color: blue;
+  height: 77px;
+  width: 252px;
+  border: black 1px solid; 
+  
+  
+}
+
+.choco{
+
+  background-color: chocolate;
+  height: 52px;
+  width: 202px;
+  border: black 1px solid;
+  
+}
+
+.ciel{
+
+  background-color: rgb(22, 220, 247);
+  height: 52px;
+  width: 302px;
+  border: black 1px solid;
+}
+
+.jaune{
+  background-color: yellow;
+  border: black 1px solid;
+}
+
+.gris {
+ background-color:  black;
+  border: black 1px solid;
+}
+
+#exercice1 .vert{
+  margin: auto;
+  padding-top: 11.5px;
+}
+
+#exercice1 .bleu{
+  margin: auto;
+  padding-top: 11.5px;
+}
+
+#exercice1 .choco{
+  margin: auto;
+}
+
+
+#exercice2 .vert{
+  margin: auto;
+  padding-top: 11.5px;
+}
+
+#exercice2 .bleu{
+  margin: auto;
+  padding-top: 11.5px;
+  position: relative;
+  margin-right: -25px;
+}
+
+#exercice2 .choco{
+  margin: auto;
+  margin-left: -85px;
+}
+
+
+#exercice3 .vert{
+  margin: auto;
+  padding-top: 11.5px;
+}
+
+#exercice3 .bleu{
+  margin: auto;
+  padding-top: 11.5px;
+}
+
+#exercice3 .choco{
+  position: absolute center;
+  margin:auto;
+  margin-top: 80px;
+  width: 50px;
+}
+
+#exercice4{
+  margin-top: 65px;
+}
+
+
+#exercice4 .ciel{
+margin: auto;
+}
+
+#exercice4 .vert{
+  height: 102px;
+  width: 102px;
+  position: absolute center;
+  padding-top: 25px;
+  margin-left: 100px;
+  margin-top: 100px;  
+}
+
+#exercice4 .bleu{
+  height: 52px;
+  width: 52px;
+  position: absolute center;
+  margin-left: 25px;
+}
+
+#exercice4 .choco{
+  height: 52px;
+  width: 52px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+#exercice5{
+  margin-top: 240px;
+}
+
+#exercice5 .ciel{
+  margin: auto;
+  height: 302px;
+  width: 302px;
+  padding: 10px;
+}
+
+#exercice5 .vert{
+  
+  height: 136px;
+  width: 136px;
+  
+}
+
+#exercice5 .bleu{
+  
+  height: 136px;
+  width: 136px;
+  position: absolute;
+  margin-left: 144px;
+}
+
+#exercice5 .choco{
+  
+  height: 136px;
+  width: 136px;
+  position: absolute;
+  margin-top: 145px;
+  margin-left: -145px;
+}
+
+#exercice5 .jaune{
+
+  height: 136px;
+  width: 136px;
+  position: absolute;
+  margin-left: 144px;
+}
+
+
+#exercice6 .ciel{margin: auto;
+  height: 302px;
+  width: 302px;
+  padding: 7px;}
+
+
+  #exercice6 .vert{
+  
+    height: 136px;
+    width: 136px;
+    
+    
+  }
+
+  .bleuTransp{
+    background-color:rgba(0, 0, 240, 0.7) ;
+    border: black 1px solid;
+  }
+
+  #exercice6 .bleuTransp{
+    
+    height: 136px;
+    width: 136px;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+    
+   
+    
+    
+  }
+
+  #exercice6 .choco{
+  
+    height: 136px;
+    width: 136px;
+    margin-left: 118px;
+    margin-top: 118px;
+    
+    
+  }
+
+  #exercice6 .jaune{
+  
+    height: 136px;
+    width: 136px;
+    margin-left:15px ;
+    margin-top:15px;
+    
+    
+  }
+ 
+
+  #exercice7 .vert{
+    float: left;
+    height: 75px;
+    width: 75px;
+  }
+  #exercice7 .bleu{
+    float: left;
+    height: 75px;
+    width: 75px;
+  }
+
+  #exercice7 .choco
+  {
+    
+    margin-top: 95px;
+    height: 75px;
+    width: 300px;
+  }
+
+  
+  #exercice7 .jaune{
+    margin-left: 225px;
+    float: left;
+    height: 75px;
+    width: 75px;
+  }
+  #exercice7 .gris{
+    margin-left: 150px;
+    
+    height: 75px;
+    width: 75px;
+    
+  }
+
+
+ 
+
+  #exercice8{
+    float: left;
+    position: sticky;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    border-radius: 8px;
+   
+    margin-top: -1950px;
+  }
+
+  
+#exercice8 li{
+  padding-top: 15px;
+  padding-left: 30px;;
+  list-style: none;
+  color: white;
+  
+}
+
+#exercice8 a{
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  
+  
+}
