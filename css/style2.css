@@ -1,8 +1,11 @@
 *{box-sizing: border-box;}
 
+h2{
+  text-align: center;
+}
 .vert{
 
-  background-color: green;
+  background-color: #230040;
   height: 102px;
   width: 302px; 
   border: black 1px solid;
@@ -12,7 +15,7 @@
 
 .bleu{
   
-  background-color: blue;
+  background-color:#8B00FF;
   height: 77px;
   width: 252px;
   border: black 1px solid; 
@@ -22,7 +25,7 @@
 
 .choco{
 
-  background-color: chocolate;
+  background-color: #6800BF;
   height: 52px;
   width: 202px;
   border: black 1px solid;
@@ -31,20 +34,32 @@
 
 .ciel{
 
-  background-color: rgb(22, 220, 247);
+  background-color: #7D00E5;
   height: 52px;
   width: 302px;
   border: black 1px solid;
 }
 
 .jaune{
-  background-color: yellow;
+  background-color:#230040;
   border: black 1px solid;
 }
 
 .gris {
  background-color:  black;
   border: black 1px solid;
+}
+
+header{
+  height: 60px;
+  width: 100%;
+  background-color: #45007F;
+  
+}
+
+h1{
+  color: white;
+  text-align: center;
 }
 
 #exercice1 .vert{
@@ -129,6 +144,8 @@ margin: auto;
   margin-top: 100px;
 }
 
+
+/*container forcement en relatif*/
 #exercice5{
   margin-top: 240px;
 }
@@ -185,19 +202,21 @@ margin: auto;
     width: 136px;
     
     
+    
   }
 
   .bleuTransp{
-    background-color:rgba(0, 0, 240, 0.7) ;
+    background-color:rgba(139, 0, 255, 0.7) ;
     border: black 1px solid;
   }
 
   #exercice6 .bleuTransp{
-    
+    position: relative;
     height: 136px;
     width: 136px;
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: -115px;
+    z-index: 1;
     
     
    
@@ -206,22 +225,24 @@ margin: auto;
   }
 
   #exercice6 .choco{
-  
+    position:absolute;
     height: 136px;
     width: 136px;
-    margin-left: 118px;
-    margin-top: 118px;
+    margin-left: 136px;
+    margin-top: -21px;
+    
+
     
     
   }
 
   #exercice6 .jaune{
-  
+    
     height: 136px;
     width: 136px;
-    margin-left:15px ;
-    margin-top:15px;
-    
+    margin-left:150px ;
+    margin-top: -9px;
+   
     
   }
  
@@ -269,7 +290,7 @@ margin: auto;
     top: 0;
     width: 200px;
     height: 200px;
-    background-color: chocolate;
+    background-color: #45007F;
     border-radius: 8px;
    
     margin-top: -1950px;
@@ -290,4 +311,48 @@ margin: auto;
   color: white;
   
   
+}
+
+
+#exercice9{
+  margin-top: 240px;
+}
+
+#exercice9 .ciel{
+  margin: auto;
+  height: 302px;
+  width: 302px;
+  padding: 10px;
+}
+
+#exercice9 .vert{
+  
+  height: 136px;
+  width: 136px;
+  
+}
+
+#exercice9 .bleu{
+  
+  height: 136px;
+  width: 136px;
+  position: relative;
+  margin-left: 144px;
+}
+
+#exercice9 .choco{
+  
+  height: 136px;
+  width: 136px;
+  position: relative;
+  margin-top: 145px;
+  margin-left: -145px;
+}
+
+#exercice9 .jaune{
+
+  height: 136px;
+  width: 136px;
+  position: relative;
+  margin-left: 144px;
 }
